@@ -19,6 +19,13 @@
             <artifactId>hutool-all</artifactId>
             <version>5.8.16</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version> <!-- 版本号可以根据实际情况更新 -->
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
 </project>
