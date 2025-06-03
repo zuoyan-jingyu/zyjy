@@ -8,7 +8,7 @@ public class GroupLeaderProcessor implements Processor {
   @Override
   public Boolean process(Request request) {
     //只要不是小明，并且金额在1000元以下，就同意报销
-    if (request.getName().equals("小明")) {
+    if ("小明".equals(request.getName())) {
       System.out.println("组长拒绝了" + request.getName() + "的报销申请");
       return false;
     }
